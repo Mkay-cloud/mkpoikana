@@ -5,32 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>You're In! — The Blog Income System</title>
 
-  <!-- ======================================================
-    GOOGLE ADS CONVERSION TRACKING
-    Replace AW-XXXXXXXXXX with your Conversion ID
-    Replace the second XXXXXXXXXX with your Conversion Label
-    (Both found in Google Ads → Tools → Conversions)
-  ======================================================= -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-XXXXXXXXXX"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){ dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'AW-XXXXXXXXXX');
-    gtag('event', 'conversion', {
-      'send_to': 'AW-XXXXXXXXXX/XXXXXXXXXX',
-      'value': 9997,
-      'currency': 'NGN'
-    });
-  </script>
-
-  <!-- ======================================================
-    META (FACEBOOK) PIXEL — Pinterest sales dataset
-    Pixel ID: 453313677676071
-    Tracks: PageView (automatic) + custom Purchase_BlogIncomeSystem
-    Kept as a separate event name so it's distinguishable in
-    Events Manager from your existing "Pinterest sales" Purchase events.
-  ======================================================= -->
+  <!-- Meta Pixel Code -->
   <script>
     !function(f,b,e,v,n,t,s)
     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -40,42 +15,13 @@
     t.src=v;s=b.getElementsByTagName(e)[0];
     s.parentNode.insertBefore(t,s)}(window, document,'script',
     'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '453313677676071');
+    fbq('init', '1153218527267576');
     fbq('track', 'PageView');
-    fbq('track', 'Purchase', {
-      value: 9997,
-      currency: 'NGN',
-      content_name: 'Blog Income System'
-    });
-    fbq('trackCustom', 'Purchase_BlogIncomeSystem', {
-      value: 9997,
-      currency: 'NGN'
-    });
   </script>
-  <noscript>
-    <img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=453313677676071&ev=PageView&noscript=1"/>
-  </noscript>
-  <!-- End Meta Pixel -->
-
-  <!-- X (Twitter) conversion tracking base code -->
-  <script>
-  !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
-  },s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='https://static.ads-twitter.com/uwt.js',
-  a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
-  twq('config','re6t1');
-  </script>
-  <!-- End X conversion tracking base code -->
-
-  <!-- X conversion tracking event code — Purchase -->
-  <script type="text/javascript">
-    twq('event', 'tw-re6t1-re6td', {
-      value: 9997,
-      currency: 'NGN',
-      conversion_id: 'blog-income-system'
-    });
-  </script>
-  <!-- End X conversion tracking event code -->
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1153218527267576&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -217,31 +163,6 @@
       .btn { font-size: 14px; padding: 16px 20px; }
     }
   </style>
-<!-- TikTok Pixel Code Start -->
-<script>
-!function (w, d, t) {
-  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
-var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
-;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
-  ttq.load('D9KV17RC77U94VNAA0DG');
-  ttq.page();
-}(window, document, 'ttq');
-</script>
-<!-- TikTok Pixel Code End -->
-
-<!-- TikTok Purchase Event -->
-<script>
-  ttq.track('Purchase', {
-    contents: [{
-      content_id: 'blog-income-system',
-      content_type: 'product',
-      content_name: 'Blog Income System'
-    }],
-    value: 9997,
-    currency: 'NGN'
-  });
-</script>
-<!-- End TikTok Purchase Event -->
 </head>
 <body>
 
